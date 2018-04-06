@@ -1,5 +1,51 @@
 {
-	"We will uncover and create a lot of mysteries hopefully - Rick 2018"
-	"LOST: has anyone seen the rest of the source code"
-	"origin": [""]
+  "origin": [
+    "#bottle_message#"
+  ],
+
+  "HELPERS/UTILITY": "",
+
+  "heshe": [
+    "he",
+    "she",
+    "it"
+  ],
+
+
+  "BOTTLE MESSAGES": "",
+
+  "bottle_message": [
+    "🌊🍾🌊 ʏᴏᴜ ғɪɴᴅ ᴀ ᴍᴇssᴀɢᴇ ɪɴ ᴀ ʙᴏᴛᴛʟᴇ 🌊🍾🌊\n\n\"#bottle_message_real#\""
+  ],
+
+  "bottle_message_real": [
+    "#bottle_message_tidelineart#",
+    "#bottle_message_internet#"
+  ],
+
+  "bottle_message_tidelineart": [
+    "Trust the journey, even when you can't understand it",
+    "It’s Friday high day - done my English coursework - so anyway, life is good.",
+    "The seagulls still think I’m part of their pack. Ever since I took that crack my mind is being weird.",
+    "Smoke weed, drink tea, but whatever you do, make sure you make it.",
+    "Hi there whoever you are. I’m a billionaire with a message. My handwriting is fucked because I wrote this in the cold.",
+    "Hi, this is Lisa, Emma, Gemma, Nathan and Michael.  We have set sail from Tilbury Docks and we are stuck in the middle of the Thames. Please help us!",
+    "My name is Georgie Manor - England, East London, Age 50. Who ever finds this bottle, well done. This will bring you good luck and happiness.",
+    "Try, try and try again .. Be relentless. BUT IF IT ALL FUCKS UP  .. Try something else!",
+    "Hello you Human, I am Zib Zob  and I am from Marz.  I have been learning about Humans and How they wright. Zib Zob X",
+    "Hello I am Rose. I am writing to you to see how it is sailing.  I hope you get this, by Rose. ps there's 2 in there.",
+    "Me and the love of my life are drinking wine. We are at Tower Hill London. Once you get this call me.",
+    "Try everything at least once, except you know, illegal stuff (duh)",
+    "Contact me. My name is Darren Bester & I am looking for a job.",
+    "Can we pretend that airplanes in the night sky are like shooting stars. I got all my wishes right now.",
+    "Zoe Queen she is my baby. I can’t thank you enough for how she has helped me and supported me. I nearly lost her but NEVER AGAIN!!",
+    "whoever reads this you’re an idiot ha ha ha, bye",
+    "Can we pretend that airplanes in the night sky are like shooting stars. I got all my wishes right now"
+  ],
+
+  "bottle_message_internet": [
+    "Hey person who finds this, I’m Amanda! I’m helping my best friend ever Shantel babysit her kid brother and sister.",
+    "To finder, I am in the 6th grade. I am twelve years old. I let this bottle go where the tigers river meet. I was fishing. I have 1 sister – 3 dogs – and plenty of friends.",
+    "When you have finished reading this write another and let it go downstream. Your pal, Mark"
+  ]
 }
