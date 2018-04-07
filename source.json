@@ -1,51 +1,73 @@
+
 {
-  "origin": [
-    "#bottle_message#"
-  ],
-
-  "HELPERS/UTILITY": "",
-
-  "heshe": [
-    "he",
-    "she",
-    "it"
-  ],
+	"origin": ["#bottle_message#"],
 
 
-  "BOTTLE MESSAGES": "",
+	"HELPERS/UTILITY": "",
 
-  "bottle_message": [
-    "🌊🍾🌊 ʏᴏᴜ ғɪɴᴅ ᴀ ᴍᴇssᴀɢᴇ ɪɴ ᴀ ʙᴏᴛᴛʟᴇ 🌊🍾🌊\n\n\"#bottle_message_real#\""
-  ],
+	"heshe": ["he", "she", "they"],
+	"IWeare": ["I'm", "we're"],
+	"0to9": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+	"0to2": ["0", "1", "2"],
+     	"1to12": ["01", "02", "03", "04", "05", "06", "07", "08", "09","10","11","12"],
+	"hello": ["hi", "hello", "hey"],
+	"date": ["#0to2##0to9#. #1to12#. 19#0to9##0to9#"],
 
-  "bottle_message_real": [
-    "#bottle_message_tidelineart#",
-    "#bottle_message_internet#"
-  ],
 
-  "bottle_message_tidelineart": [
-    "Trust the journey, even when you can't understand it",
-    "It’s Friday high day - done my English coursework - so anyway, life is good.",
-    "The seagulls still think I’m part of their pack. Ever since I took that crack my mind is being weird.",
-    "Smoke weed, drink tea, but whatever you do, make sure you make it.",
-    "Hi there whoever you are. I’m a billionaire with a message. My handwriting is fucked because I wrote this in the cold.",
-    "Hi, this is Lisa, Emma, Gemma, Nathan and Michael.  We have set sail from Tilbury Docks and we are stuck in the middle of the Thames. Please help us!",
-    "My name is Georgie Manor - England, East London, Age 50. Who ever finds this bottle, well done. This will bring you good luck and happiness.",
-    "Try, try and try again .. Be relentless. BUT IF IT ALL FUCKS UP  .. Try something else!",
-    "Hello you Human, I am Zib Zob  and I am from Marz.  I have been learning about Humans and How they wright. Zib Zob X",
-    "Hello I am Rose. I am writing to you to see how it is sailing.  I hope you get this, by Rose. ps there's 2 in there.",
-    "Me and the love of my life are drinking wine. We are at Tower Hill London. Once you get this call me.",
-    "Try everything at least once, except you know, illegal stuff (duh)",
-    "Contact me. My name is Darren Bester & I am looking for a job.",
-    "Can we pretend that airplanes in the night sky are like shooting stars. I got all my wishes right now.",
-    "Zoe Queen she is my baby. I can’t thank you enough for how she has helped me and supported me. I nearly lost her but NEVER AGAIN!!",
-    "whoever reads this you’re an idiot ha ha ha, bye",
-    "Can we pretend that airplanes in the night sky are like shooting stars. I got all my wishes right now"
-  ],
+	"BOTTLE MESSAGES": "",
 
-  "bottle_message_internet": [
-    "Hey person who finds this, I’m Amanda! I’m helping my best friend ever Shantel babysit her kid brother and sister.",
-    "To finder, I am in the 6th grade. I am twelve years old. I let this bottle go where the tigers river meet. I was fishing. I have 1 sister – 3 dogs – and plenty of friends.",
-    "When you have finished reading this write another and let it go downstream. Your pal, Mark"
-  ]
+"bottle_message": ["🌊🍾🌊 ʏᴏᴜ ғɪɴᴅ ᴀ ᴍᴇssᴀɢᴇ ɪɴ ᴀ ʙᴏᴛᴛʟᴇ 🌊🍾🌊\n\n\"#introduction#. #sent_from#.\n#advice#\"", "🌊🍾🌊 ʏᴏᴜ ғɪɴᴅ ᴀ ᴍᴇssᴀɢᴇ ɪɴ ᴀ ʙᴏᴛᴛʟᴇ 🌊🍾🌊\n\n\"#advice#\n#contactme#\n\n#signature#\"", "🌊🍾🌊 ʏᴏᴜ ғɪɴᴅ ᴀ ᴍᴇssᴀɢᴇ ɪɴ ᴀ ʙᴏᴛᴛʟᴇ 🌊🍾🌊\n\n#map#\n#riddle#"],
+
+	"emoji_landmark":["🌴", "🌵", "🌲", "🌳", "🌱", "🍀", "🎋", "🐚", "🌊", "⚔️", "🔪", "⚰️", "⚱️", "🏺", "🔮", "🔭", "🗿", "⛱️", "🏴‍☠️", "🌱", "🌿", "🌾", "🌺", "🌻", "🌼", "🥀"],
+	"M":["#emoji_landmark#", "⬜️", "⬜️", "⬜️"],
+	"X":["❌", "✖️"],
+	"map":["#M##M##M##M##M#\n#M##M##M##M##M#\n#M##M##X##M##M#\n#M##M##M##M##M#\n#M##M##M##M##M#"],
+"riddle":["Find the #village_part1# #village_part2.capitalize#", "Go #0to9# steps until you meet the #forestanimal# of the #village_part1#", "Hidden on the #village_part1# #water_landmark#, seen by the #forestanimal#", "Follow the song of the #forestbird#", "The #forestplant# of the #forestanimal# will show you the way", "Explore the #village_part2# of the #forestanimal#"],
+	"introduction": ["#hello.capitalize# my name is #firstname#", "#hello.capitalize# this is #firstname#", "My name is #firstname#", "#hello.capitalize# there whoever you are", "#hello.capitalize# I am #firstname#", "The #village_part2# of the #forestanimal#, the #village_part1# of #village_part2.s#", "Where the #forestplant.s# have their home", "#village_part2.capitalize# of the #forestanimal.s#"],
+
+	"advice": ["Now PUNCH that laziness in the FACE and have a great day!!", "Try everything at least once, except you know, illegal stuff (duh)", "Trust the journey, even when you can't understand it", "Smoke weed, drink tea, but whatever you do, make sure you make it.", "Try, try and try again .. Be relentless. BUT IF IT ALL FUCKS UP  .. Try something else!", "The future belongs to those who believe in the beauty of their dreams.", "Happiness resides not in possessions and not in gold; the feeling of happiness dwells in the soul.", "When someone leaves, it’s because someone else is about to arrive.", "It is said that the darkest hour of the night comes just before the dawn.", "You never fail until you stop trying.", "Only those who attempt the absurd can achieve the impossible.", "When someone else’s happiness is your happiness, that’s love", "Happiness is perfume, you can’t pour it on somebody else without getting a few drops on yourself.", "Better than a thousand hollow words, is one word that brings peace.", "Peace comes from within. Do not seek it without.", "Be kind whenever possible. It is always possible.", "Always do your best. What you plant now, you will harvest later.", "Wherever you go, go with all your heart.", "Be happy for this moment. This moment is your life.", "Everything has beauty, but not everyone sees it.", "All our dreams can come true, if we have the courage to pursue them.", "The good man is the friend of all living things.", "Life's most persistent and urgent question is, 'What are you doing for others?'", "The time is always right to do what is right.", "Love is the only force capable of transforming an enemy into a friend."],
+
+	"sent_from": ["#IWeare.capitalize# at #village_part1# #water_landmark#, #village_name#", "This was sent from #village_part1# #water_landmark#, #village_name#", "This was thrown into the water at  #village_part1# #water_landmark#, #village_name#"],
+	"water_landmark": ["beach", "hill", "shore", "docks", "harbor", "cliff", "coast"],
+
+	"signature": ["- #firstname#, #village_name#", "-#firstname#, #village_name# #date#", "- #firstname#, #date#", "-#firstname# the #forestanimal#, #date#"],
+
+	"contactme": ["Please contact me.", "Send a message back if you find this.", "Once you get this, call me.", "Contact me.", "Please write me back if you find this message.","If you find this, let me know."],
+
+
+	"ENGLISH VILLAGE NAME GENERATOR": "",
+
+	"village_name": ["#village_part1##village_part2#"],
+
+	"village_part1": ["Holy", "New", "Kings", "Ash", "Black", "Sunder", "White", "Lost", "Ivy", "Ax", "Mine", "Hunger", "Knight", "Bed", "Hunting", "Water", "Coal", "Hay", "North", "East", "South", "West", "Fox", "Spring", "Oakley", "Well", "Old", "Moss", "Little", "Apple", "Peach", "Winter", "Deep", "Summer", "Autumn", "Man", "May", "March", "June", "Farns", "Farn", "Mans", "Grass", "Meadow", "Green", "Red", "Blood", "Corn", "Wheat", "Upper", "Lower", "Cross", "Cow", "Goat", "Lady", "War", "Great", "Cat", "Smith", "Killing", "Fairy", "Bear", "Eagle", "Acorn", "Crab", "Bees", "Bitter", "Pale", "Bronze", "Butter", "Dusk", "Bright", "Brindle", "Wrath", "Fair", "Dun", "Corpse", "Crow", "Rose", "River", "Ghost", "Tuffle", "Broom", "Glover", "Deep", "Dread", "Fever", "Flea", "Grace", "Golden", "Gold", "Grey", "Griffin", "Great", "Giant", "Goats", "Sky", "Gull"],
+
+	"village_part2": ["bridge", "ville", "lake", "pool", "port", "sea", "castle", "moor", "stone", "ford", "hill", "church", "wood", "hall", "field", "ton", "isle", "land", "haven", "beach", "bourne", "farm", "thorne", "grave", "wick", "marsh", "burgh", "lands", "house", "dale", "well", "side", "bane", "cave", "lorn", "claw", "cape", "stones", "water", "town", "mark", "falls", "grave", "bay", "fire", "gate", "fist", "heart", "shield", "shore", "lake", "keep", "watch", "market", "wynd", "guard", "grove", "reach"],
+
+
+"FOREST ANIMALS":"",
+    
+	"forestanimal":         ["#forestbird#", "#forestmammal#", "#forestamphibian#", "#forestcritter#"],
+	"forestbird":           ["blackbird", "raven", "owl ", "blue tit", "black tit"],
+	"forestmammal":         ["bear", "deer", "bunny", "fox", "squirrel", "hedgehog", "bat"],
+	"forestamphibian":      ["toad", "frog"],
+	"forestcritter":        ["snail", "grasshopper", "woodlouse", "ladybug", "ant", "wasp", "bee", "worm", "dragonfly", "hornet", "butterfly", "centipede", "caterpillar"],
+
+
+"FOREST_PLANTS":"",
+
+	"foresttree":           ["beech", "pine", "acorn", "birch", "oak"],
+
+    "forestflora":          ["#forestplant_leafy#", "#forestplant_moss#", "#flower#", "#forestfungi#"],
+    "forestplant":         ["#forestplant_leafy#", "#flower#"],
+
+	"forestplant_leafy":    ["fern", "clover"],
+    "forestplant_moss":     ["moss", "lichen"],
+    "flower":               ["flower", "dandelion", "rose", "daisy", "lavender", "camomile", "wild garlic"],
+
+    "forestfungi":          ["amanita", "mushroom", "tree mushroom", "fungi"],
+
+
+	"CHARACTERS": "",
+
+	"firstname": ["Aaliyah", "Aaron", "Abby", "Abigail", "Abraham", "Adam", "Addison", "Adrian", "Adriana", "Adrianna", "Aidan", "Aiden", "Alan", "Alana", "Alejandro", "Alex", "Alexa", "Alexander", "Alexandra", "Alexandria", "Alexia", "Alexis", "Alicia", "Allison", "Alondra", "Alyssa", "Amanda", "Amber", "Amelia", "Amy", "Ana", "Andrea", "Andres", "Andrew", "Angel", "Angela", "Angelica", "Angelina", "Anna", "Anthony", "Antonio", "Ariana", "Arianna", "Ashley", "Ashlyn", "Ashton", "Aubrey", "Audrey", "Austin", "Autumn", "Ava", "Avery", "Ayden", "Bailey", "Benjamin", "Bianca", "Blake", "Braden", "Bradley", "Brady", "Brandon", "Brayden", "Breanna", "Brendan", "Brian", "Briana", "Brianna", "Brittany", "Brody", "Brooke", "Brooklyn", "Bryan", "Bryce", "Bryson", "Caden", "Caitlin", "Caitlyn", "Caleb", "Cameron", "Camila", "Carlos", "Caroline", "Carson", "Carter", "Cassandra", "Cassidy", "Catherine", "Cesar", "Charles", "Charlotte", "Chase", "Chelsea", "Cheyenne", "Chloe", "Christian", "Christina", "Christopher", "Claire", "Cody", "Colby", "Cole", "Colin", "Collin", "Colton", "Conner", "Connor", "Cooper", "Courtney", "Cristian", "Crystal", "Daisy", "Dakota", "Dalton", "Damian", "Daniel", "Daniela", "Danielle", "David", "Delaney", "Derek", "Destiny", "Devin", "Devon", "Diana", "Diego", "Dominic", "Donovan", "Dylan", "Edgar", "Eduardo", "Edward", "Edwin", "Eli", "Elias", "Elijah", "Elizabeth", "Ella", "Ellie", "Emily", "Emma", "Emmanuel", "Eric", "Erica", "Erick", "Erik", "Erin", "Ethan", "Eva", "Evan", "Evelyn", "Faith", "Fernando", "Francisco", "Gabriel", "Gabriela", "Gabriella", "Gabrielle", "Gage", "Garrett", "Gavin", "Genesis", "George", "Gianna", "Giovanni", "Giselle", "Grace", "Gracie", "Grant", "Gregory", "Hailey", "Haley", "Hannah", "Hayden", "Hector", "Henry", "Hope", "Hunter", "Ian", "Isaac", "Isabel", "Isabella", "Isabelle", "Isaiah", "Ivan", "Jack", "Jackson", "Jacob", "Jacqueline", "Jada", "Jade", "Jaden", "Jake", "Jalen", "James", "Jared", "Jasmin", "Jasmine", "Jason", "Javier", "Jayden", "Jayla", "Jazmin", "Jeffrey", "Jenna", "Jennifer", "Jeremiah", "Jeremy", "Jesse", "Jessica", "Jesus", "Jillian", "Jocelyn", "Joel", "John", "Johnathan", "Jonah", "Jonathan", "Jordan", "Jordyn", "Jorge", "Jose", "Joseph", "Joshua", "Josiah", "Juan", "Julia", "Julian", "Juliana", "Justin", "Kaden", "Kaitlyn", "Kaleb", "Karen", "Karina", "Kate", "Katelyn", "Katherine", "Kathryn", "Katie", "Kayla", "Kaylee", "Kelly", "Kelsey", "Kendall", "Kennedy", "Kenneth", "Kevin", "Kiara", "Kimberly", "Kyle", "Kylee", "Kylie", "Landon", "Laura", "Lauren", "Layla", "Leah", "Leonardo", "Leslie", "Levi", "Liam", "Liliana", "Lillian", "Lilly", "Lily", "Lindsey", "Logan", "Lucas", "Lucy", "Luis", "Luke", "Lydia", "Mackenzie", "Madeline", "Madelyn", "Madison", "Makayla", "Makenzie", "Malachi", "Manuel", "Marco", "Marcus", "Margaret", "Maria", "Mariah", "Mario", "Marissa", "Mark", "Martin", "Mary", "Mason", "Matthew", "Max", "Maxwell", "Maya", "Mckenzie", "Megan", "Melanie", "Melissa", "Mia", "Micah", "Michael", "Michelle", "Miguel", "Mikayla", "Miranda", "Molly", "Morgan", "Mya", "Naomi", "Natalia", "Natalie", "Nathan", "Nathaniel", "Nevaeh", "Nicholas", "Nicolas", "Nicole", "Noah", "Nolan", "Oliver", "Olivia", "Omar", "Oscar", "Owen", "Paige", "Parker", "Patrick", "Paul", "Payton", "Peter", "Peyton", "Preston", "Rachel", "Raymond", "Reagan", "Rebecca", "Ricardo", "Richard", "Riley", "Robert", "Ruby", "Ryan", "Rylee", "Sabrina", "Sadie", "Samantha", "Samuel", "Sara", "Sarah", "Savannah", "Sean", "Sebastian", "Serenity", "Sergio", "Seth", "Shane", "Shawn", "Shelby", "Sierra", "Skylar", "Sofia", "Sophia", "Sophie", "Spencer", "Stephanie", "Stephen", "Steven", "Summer", "Sydney", "Tanner", "Taylor", "Thomas", "Tiffany", "Timothy", "Travis", "Trenton", "Trevor", "Trinity", "Tristan", "Tyler", "Valeria", "Valerie", "Vanessa", "Veronica", "Victor", "Victoria", "Vincent", "Wesley", "William", "Wyatt", "Xavier", "Zachary", "Zoe", "Zoey"]
 }
