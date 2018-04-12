@@ -47,15 +47,15 @@
 "FOREST ANIMALS":"",
     
 	"forestanimal":         ["#forestbird#", "#forestmammal#", "#forestamphibian#", "#forestcritter#"],
-	"forestbird":           ["blackbird", "raven", "owl ", "blue tit", "black tit"],
-	"forestmammal":         ["bear", "deer", "bunny", "fox", "squirrel", "hedgehog", "bat"],
-	"forestamphibian":      ["toad", "frog"],
-	"forestcritter":        ["snail", "grasshopper", "woodlouse", "ladybug", "ant", "wasp", "bee", "worm", "dragonfly", "hornet", "butterfly", "centipede", "caterpillar"],
+	"forestbird":           ["blackbird", "raven", "owl ", "blue tit", "black tit", "blue jay", "crow"],
+	"forestmammal":         ["bear", "deer", "bunny", "fox", "squirrel", "hedgehog", "bat", "hare"],
+	"forestamphibian":      ["toad", "frog", "salamander"],
+	"forestcritter":        ["snail", "grasshopper", "woodlouse", "ladybug", "ant", "wasp", "bee", "worm", "dragonfly", "hornet", "butterfly", "centipede", "caterpillar", "cricket", "millipede"],
 
 
 "FOREST_PLANTS":"",
 
-	"foresttree":           ["beech", "pine", "acorn", "birch", "oak"],
+	"foresttree":           ["beech", "pine", "acorn", "birch", "oak", "willow", "chestnut tree", "hazelnut tree"],
 
     "forestflora":          ["#forestplant_leafy#", "#forestplant_moss#", "#flower#", "#forestfungi#"],
     "forestplant":         ["#forestplant_leafy#", "#flower#"],
@@ -73,7 +73,7 @@
 
   "OBJECTS FOUND": "",
 
-	"Objectfound": ["#var_heshe.capitalize# is #placeoffinding#.\n#var_heshe.capitalize# #findverb_heshe# #adjectiveitem.a# #item#.", "The first thing #var_heshe# #findverb_heshe# #placeoffinding# is #adjectiveitem.a# #item#.", "#var_heshe.capitalize# ventures deep into the #inplace# and #findverb_heshe# #adjectiveitem.a# #item#."],
+	"Objectfound": ["#var_heshe.capitalize# is #placeoffinding#.\n#var_heshe.capitalize# #findverb_heshe# #adjectiveitem.a# #item#.\n#feelingpart#.", "The first thing #var_heshe# #findverb_heshe# #placeoffinding# is #adjectiveitem.a# #item#.\n#feelingpart#.", "#var_heshe.capitalize# ventures deep into the #inplace# and #findverb_heshe# #adjectiveitem.a# #item#.\n#feelingpart#."],
 
 	"findverb_heshe": ["finds", "uncovers", "discovers", "digs up", "stumbles upon", "digs in the dirt and finds", "digs in the sand and finds", "notices", "turns over a stone and finds", "open the secret door and discovers"],
 
@@ -84,7 +84,13 @@
 
 	"placeoffinding": ["on the  #strange# #onplace#", "in the #strange# #inplace#", "on the #onplace#", "in the #inplace#"],
 	"strange": ["strange", "peculiar", "haunted", "abandoned", "newly discovered", "forgotten", "otherwise empty", "decaying", "bright", "filthy", "clean", "broken", "#adjectiveitem#", "overgrown", "calm", "unsettling", "spooky", "ghostly", "busy", "noisy", "polluted", "lost", "enormous", "tiny", "huge", "small", "big", "dark", "cozy", "hidden", "secret", "industrial"],
-	"onplace": ["beach", "island", "wrecked ship", "XXX"],
-	"inplace": ["hotel", "hotel room", "room", "attic", "tunnel underground", " facility", "#objectfactory# factory", "metro station", "train station", "car park", "forest", "park", "overgrown garden", "house", "tower", "castle", "home", "gas station", "hospital", "asylum", "manor", "attic", "cellar", "office", "cave", "mine", "temple", "school", "university", "IKEA", "greenhouse", "cabin", "church", "tomb", "theatre", "labyrinth", "library"],
-	"objectfactory": ["car", "french fries", "electric motors", "pet food", "clothes", "machinery", "chocolate", "toy", "#item#", "airplane", "tank", "weapon", "doll", "shoes", "food"]
+	"onplace": ["beach", "island", "wrecked ship", "rock"],
+	"inplace": ["hotel", "hotel room", "room", "attic", "tunnel underground", " facility", "#objectfactory# factory", "metro station", "train station", "car park", "forest", "park", "overgrown garden", "house", "tower", "castle", "home", "gas station", "hospital", "asylum", "manor", "attic", "cellar", "office", "cave", "grotto", "mine", "temple", "school", "university", "IKEA", "greenhouse", "cabin", "church", "tomb", "theatre", "labyrinth", "library", "shop", "supermarket"],
+	"objectfactory": ["car", "french fries", "electric motors", "pet food", "clothes", "machinery", "chocolate", "toy", "#item#", "airplane", "tank", "weapon", "doll", "shoes", "food"],
+
+	"feelingpart”: ["#feelslike# #likefeeling#", "#justfeels# #justfeeling#"],
+	"feelslike": ["It feels like #var_heshe#’s", "#var_heshe.capitalize# feels like #var_heshe#’s", "Suddenly, #var_heshe# feels like #var_heshe#’s", "It’s like #var_heshe#’s", "It’s as if #var_heshe# was"],
+	"justfeels": ["#var_heshe.capitalize# feels", "#var_heshe.capitalize# is", "#var_heshe.capitalize# is, quite suprisingly,", "#var_heshe.capitalize# feels pretty", "#var_heshe.capitalize# feels rather", "#var_heshe.capitalize# coudl almost feel"],
+	"likefeeling": ["back home", "back in a time when things were simpler", "a child again", "home again", "an archaeologist", "a true explorer", "about to discover something big", "looking at something special", "holding something intimate", "really close to the person who owned this", "back in a lost memory", "remembering something from a long time ago", "on the verge of understanding the truth", "almost understanding it", "familiar with it", "discovering a great mystery", "holding something #strange#", "back in time where #var_heshe#’s still together with #firstname#"],
+	"justfeeling": ["warm and fuzzy inside", "great about that discovery", "happy", "disappointed", "underwhelmed", "uncomfortable", "scared by it", "nostalgic of times long gone", "moved by it", "strange about it", "unsure about what to do of it"]
 }
